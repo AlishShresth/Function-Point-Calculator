@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import "./cocomo.css";
 
 function Cocomo({ basic_cocomo }) {
-  const [softwareType, setSoftwareType] = useState("");
-  const [kloc, setKLOC] = useState("");
+  const [softwareType, setSoftwareType] = useState("Organic");
+  const [kloc, setKLOC] = useState(0);
   const [effort, setEffort] = useState(0);
   const [time, setTime] = useState(0);
   const [person, setPerson] = useState(0);
